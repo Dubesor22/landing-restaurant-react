@@ -1,13 +1,209 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a {
+  text-decoration: none;
+}
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(164, 164, 164, 0.35) 100%
+    ),
+    url("./assets/img/slide/slide-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-dark {
+  display: flex;
+  gap: 2rem;
+}
+.navbar-toggler {
+  background-color: rgb(255, 255, 255) !important;
+  color: white !important;
+  cursor: pointer;
+  width: 5%;
+}
+
+.title {
+  font-family: "Pacifico", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 20rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
+.home {
+  background-image: url("./assets/img/chefs-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.plate-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+  padding-bottom: 10rem;
+}
+
+.card {
+  width: 22%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* FOOTER */
+footer {
+  background: rgb(214, 162, 113);
+  padding-bottom: 0.1px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.contact-us {
+  width: 40%;
+  font-size: 25px;
+  color: #fff;
+}
+
+.brand,
+.brand + p {
+  font-weight: 500;
+  margin-left: 10rem;
+}
+.social-media {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10rem;
+}
+.social-media-icon {
+  display: inline-block;
+  margin-right: 1em;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.social-media-icon:hover {
+  background: #fff;
+  color: rgb(214, 162, 113);
+}
+
+.social-media-icon i {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.line {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  height: 1px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-navegacion {
+    width: 50vw;
+  }
+  .titulo {
+    font-size: 45px;
+  }
+  .contenedor-servicio img {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .checklist-servicio {
+    width: 80%;
+  }
+  .service {
+    margin-bottom: 30px;
+  }
+  .agregar-imagen {
+    width: 85%;
+  }
+  .close {
+    width: 18%;
+  }
+  .img-galeria {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .menu-navegacion {
+    width: 65vw;
+  }
+  .hamburguesa {
+    top: 30px;
+    right: 20px;
+  }
+  .titulo {
+    font-size: 45px;
+  }
+  .agregar-imagen {
+    width: 90%;
+  }
+  .img-galeria {
+    width: 95%;
+  }
+  .social-media {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .social-media-icon {
+    margin-left: 8px;
+  }
 }
