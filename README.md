@@ -1,3 +1,15 @@
+# Intro
+
+a React Restaurant page with Contact Form, main and Menu. exercise the bridge tech.
+
+author: David Ubeda Soriano.
+
+Dia 2 [link al enunciado](https://docs.google.com/document/d/1Cs2s-tFPd06gqFQGZPLGk41KooGBK6NwHxREnetlShE/edit#heading=h.4cbwyvntsk2)
+Dia 3 [link al enunciado](https://docs.google.com/document/d/1OnnNSgrRynEEbSykz1d7ce_p0qDlx39XnnMmq_RlDxg/edit)
+
+![image](https://user-images.githubusercontent.com/96850699/173697157-904dc50f-6530-430c-840b-b28537377334.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
