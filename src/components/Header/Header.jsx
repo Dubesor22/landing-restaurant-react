@@ -9,6 +9,9 @@ const Header = () => {
             <h5 class="text-white h4">Menu del Viajero</h5>
           </a>
           <h5 class="text-white h4">Nuestras Experiencias</h5>
+          <a href="#reservas">
+            <h5 class="text-white h4">Reservas</h5>
+          </a>
           <a href="#contacto">
             <h5 class="text-white h4">Contacto</h5>
           </a>

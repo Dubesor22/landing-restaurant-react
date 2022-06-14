@@ -77,12 +77,13 @@ a {
   margin-top: 5rem;
   gap: 2rem;
   padding-bottom: 10rem;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 22%;
   text-align: center;
   border-radius: 10px;
+  width: 300px;
 }
 
 .card-title {
