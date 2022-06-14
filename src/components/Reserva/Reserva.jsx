@@ -29,7 +29,7 @@ const Reserva = () => {
   };
 
   const handleInputChange = (event) => {
-    if (data.nombre.length + 1 < 3) {
+    if (data.nombre.length < 3) {
       setMessage("Name must be at least 3 characters");
       setBtnDisabled(true);
     } else {
