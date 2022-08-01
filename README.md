@@ -10,6 +10,8 @@ Dia 3 [link al enunciado](https://docs.google.com/document/d/1OnnNSgrRynEEbSykz1
 ![image](https://user-images.githubusercontent.com/96850699/173697157-904dc50f-6530-430c-840b-b28537377334.png)
 
 
+[link al sitio web](https://landing-restaurant-react.vercel.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
